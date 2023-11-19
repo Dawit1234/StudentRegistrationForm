@@ -1,5 +1,3 @@
-# StudentRegistrationForm
-Student Registration Form: An HTML form capturing essential student details like name, email, age, gender, state, major, and goals for the next four years.
 # Student Registration Form
 
 This HTML form collects key information from students, including their name, email, age, gender, state, major, and aspirations for the coming four years.
