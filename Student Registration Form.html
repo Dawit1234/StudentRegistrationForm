@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+<style>
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    
+    <form action="#" method="post">
+
+     <!-- Labels and input fields for user data -->
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required><br><br>
+        
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+       <label for="age">Age:</label>
+       <input type="number" id="age" name="age" required min="1"><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        
+        <label for="state">State:</label>
+
+  <!-- Dropdown menu for selecting a state -->
+        <select id="state" name="state">
+  <!-- List of all states -->
+            <option value="Alabama">Alabama</option>
+            <option value="Alaska">Alaska</option>
+            <option value="Arizona">Arizona</option>
+            <option value="Arizona">Arizona</option>
+            <option value="Arkansas">Arkansas</option>
+            <option value="California">California</option>
+            <option value="Colorado">Colorado</option>
+            <option value="Arizona">Arizona</option>    
+            <option value="Connecticut">Connecticut</option>    
+            <option value="Florida">Florida</option>    
+            <option value="Georgia">Georgia</option>    
+            <option value="Hawaii">Hawaii</option>    
+            <option value="Idaho">Idaho</option>    
+            <option value="Illinois">Illinois</option>    
+            <option value="Indiana">Indiana</option>    
+            <option value="Iowa">Iowa</option>    
+            <option value="Kansas">Kansas</option>    
+            <option value="Kentucky">Kentucky</option> 
+            <option value="Louisiana">Louisiana</option>   
+            <option value="Maine">Maine</option>    
+            <option value="Maryland">Maryland</option>   
+            <option value="Massachusetts">Massachusetts</option>    
+            <option value="Michigan">Michigan</option>   
+            <option value="Minnesota">Minnesota</option>    
+            <option value="Mississippi">Mississippi</option>   
+            <option value="Missouri">Missouri</option>    
+            <option value="Montana">Montana</option>    
+            <option value="Nebraska">Nebraska</option>   
+            <option value="Nevada">Nevada</option>    
+            <option value="New Hampshire">New Hampshire</option>  
+            <option value="New Jersey">New Jersey</option>    
+            <option value="New Mexico">New Mexico</option>    
+            <option value="New York">New York</option>    
+            <option value="North Carolina">North Carolina</option>    
+            <option value="North Dakota">North Dakota</option>   
+            <option value="Ohio">Ohio</option>    
+            <option value="Oklahoma">Oklahoma</option>   
+            <option value="Oregon">Oregon</option>  
+            <option value="Pennsylvania">Pennsylvania</option> 
+            <option value="Rhode Island">Rhode Island</option>  
+            <option value="South Carolina">South Carolina</option>   
+            <option value="South Dakota">South Dakota</option>   
+            <option value="Tennessee">Tennessee</option>   
+            <option value="Texas">Texas</option>    
+            <option value="Utah">Utah</option>    
+            <option value="Vermont">Vermont</option>   
+            <option value="Virginia">Virginia</option>   
+            <option value="Washington">Washington</option>
+            <option value="West Virginia">West Virginia</option>  
+            <option value="Wisconsin">Wisconsin</option>   
+            <option value="Wyoming">Wyoming</option>    
+    
+
+        </select><br><br>
+        
+        <label for="major">Major:</label>
+  <!-- Checkboxes for selecting majors -->
+
+        <input type="checkbox" id="major1" name="major" value="Computer Science">
+        <label for="major1">Computer Science</label>
+
+        <input type="checkbox" id="major2" name="major" value="Computer Engineering">
+        <label for="major2">Computer Engineering</label>
+
+         <input type="checkbox" id="major3" name="major" value="Software developer">
+         <lable for="major3">Software developer</lable>
+
+        <input type ="checkbox" id ="major4" name="major" value="Data Science">
+        <lable for ="major4">Data Science </lable>
+
+   
+        
+        <br><br>
+        <label for="goal">In Four Years, What Do You Want to Achieve:</label><br>
+ <!-- Text area for user's goals -->
+        <textarea id="goal" name="goal" rows="4" cols="50"></textarea><br><br>
+ <!-- Submit button to send the form -->      
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
